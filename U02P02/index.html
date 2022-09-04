@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- Estilos -->
+    <style>
+        table,
+        td,
+        th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        }
+        table {
+        width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Alumnos -->
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+            <th>Nro. Telefono</th>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Gonzales</td>
+            <td>21</td>
+            <td>+543416258974</td>
+        </tr>
+        <tr>
+            <td>Camila</td>
+            <td>Nisi</td>
+            <td>19</td>
+            <td>+543416258974</td>
+        </tr>
+        <tr>
+            <td>Nicolás</td>
+            <td>Rusoni</td>
+            <td>19</td>
+            <td>+543416258974</td>
+        </tr>
+    </table>
+    <hr>
+    <!-- Alumnos tabla compleja-->
+    <table>
+        <caption>DATOS DE LOS ALUMNOS LC2</caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <th>Nro. Telefono</th>
+                <th>Link GitHUb Práctica</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan</td>
+                <td>Gonzales</td>
+                <td>21</td>
+                <td>+543416258974</td>
+                <th><a href="https://github.com/MechiValoni/utn-labcomII-practices" target="_blank">Link</a></th>
+            </tr>
+            <tr>
+                <td>Camila</td>
+                <td>Nisi</td>
+                <td rowspan="2">19</td>
+                <td>+543416258974</td>
+                <th><a href="https://github.com/MechiValoni/utn-labcomII-practices" target="_blank">Link</a></th>
+            </tr>
+            <tr>
+                <td>Nicolás</td>
+                <td>Rusoni</td>
+                <td>+543416258974</td>
+                <th><a href="https://github.com/MechiValoni/utn-labcomII-practices" target="_blank">Link</a></th>
+            </tr>
+            <tr>
+                <td>María</td>
+                <td>Barco</td>
+                <td>23</td>
+                <td>+543416258974</td>
+                <th><a href="https://github.com/MechiValoni/utn-labcomII-practices" target="_blank">Link</a></th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>CANTIDAD ALUMNOS:</td>
+                <td colspan="3">4</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

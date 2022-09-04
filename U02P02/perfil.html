@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Datos Personales</h1>
+    <hr>
+    <!-- Información personales--->
+    <form class="form-group" action="" method="post" target="_blank">
+        <fieldset>
+            <legend>Información Personal </legend>
+            <input id="name" type="text" name="name" value="Estudiante" readonly>
+            <label for="name">Nombre:</label> 
+            <input id="name" type="text" name="name">
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email">
+            <label for="edad">Edad:</label>
+            <input id="edad" type="number" name="edad">
+            <select name="nacionalidad">
+                <option value="argetina">Argentina</option>
+                <option value="otro">Otro</option>
+            </select>
+            <select name="condicionLaboral">
+                <option value="desempleado">Desempleado</option>
+                <option value="busquedaLaboral">Busqueda Laboral</option>
+                <option value="trabajoPartTime">Part Time</option>
+                <option value="trabajoFullTime">Full Time</option>
+            </select>
+        </fieldset>
+        <!-- Gustos personales--->
+        <fieldset>
+            <legend>Gustos Personales</legend>
+            <label for="gustosMusicales">Gustos Musicales:</label> 
+            <input id="gustosMusicales" type="text" name="gustosMusicales">
+            <select name="comidasPreferidas">
+                <option value="vegetariana">Vegetariana</option>
+                <option value="vegana">Vegana</option>
+                <option value="carnivora">Carnivora</option>
+            </select>
+            <label for="recordar">Recordar datos:</label>
+            <input id="recordar" type="checkbox" name="recordar">
+        </fieldset>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
